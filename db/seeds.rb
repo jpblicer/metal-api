@@ -45,7 +45,6 @@ Band.create!(
   country: '日本'
 )
 
-
 Band.create!(
   name: 'High on Fire',
   members: {
@@ -62,8 +61,5 @@ Band.create!(
   ],
   country: 'USA'
 )
-
-
-
 
 puts "added seeded bands"
