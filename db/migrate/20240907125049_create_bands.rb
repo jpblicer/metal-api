@@ -3,7 +3,7 @@ class CreateBands < ActiveRecord::Migration[7.1]
     create_table :bands do |t|
       t.string :name
       t.jsonb :members
-      t.string :albums
+      t.string :albums, array: true
       t.string :country
 
       t.timestamps
